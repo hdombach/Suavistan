@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-us">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Suavistan</title>
+
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- font stuff -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="styles.css">
+		<script src="main.js"></script>
+
+    </head>
+	<body onload = "setup" >
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a onclick = 'loadPage("home");'  class="navbar-brand" href="#">Suavistan</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li onclick = 'loadPage("home");'><a href="#">Home</a></li>
+					<li onclick='loadPage("meetings");'><a href="#">Meetings</a></li>
+					<li onclick='loadPage("rules");'><a href="#">Laws and Regulations</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container" id='content'>
+			
+
+		</div>
+		
+	</body>
+</html> 
